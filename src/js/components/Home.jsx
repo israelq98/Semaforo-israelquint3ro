@@ -8,19 +8,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 const Home = () => {
 	const [luzActiva, setLuzActiva] = useState("activa")
-	const [luzYellowGreen, setluzYellowGreen] = useState("yellow")
-
-
-	const cambioDeLuz = () => {
-		if (luzYellowGreen == "yellow") {
-			setluzYellowGreen == "green"
-			return
-		}
-		cambioDeLuz("yellow")
-	}
-		
-
-
+	
 	return (
 		<div className="text-center">
 			<div className>
