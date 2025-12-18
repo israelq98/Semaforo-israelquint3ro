@@ -1,11 +1,50 @@
-/* 
+.luzRoja{
+    margin: auto;
+    
+    border: 50px solid red;
+    border-radius:200%;
+    background-color: red;
+    width: 5%;
+    height: 10%;
+    
+}
 
-    You can write your own styles here...
+.luzAmarilla{
+    margin: auto;
     
+    border: 50px solid yellow;
+    border-radius:200%;
+    background-color: yellow;
+    width: 5%;
+    height: 10%;
+   
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+}.luzVerde{
+    margin: auto;
+   
+    border: 50px solid  darkgreen;
+    border-radius:200%;
+    background-color:darkgreen ;
+    width: 5%;
+    height: 10%;
     
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.containerSemaforo{
+ display: flex;
+ justify-content: center;
+
+}
+
+.semaforo{
+    gap: 10px;
+    height: 100%;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:200px ;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
